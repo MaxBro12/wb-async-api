@@ -16,10 +16,10 @@ uv add git+https://github.com/MaxBro12/wb-async-api.git@master
 ## Пример
 ```python
 import asyncio
-from wb_async_api import WBApiClient
+from wb_async_api import WBService
 
 async def main():
-    client = WBApiClient(
+    client = WBService(
         token='token key', # - токен для авторизации
         test=True # - тестовый режим (при использовании тестового токена)
     )
