@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "wb-async-client"
+version = "0.1.0"
+description = "WB Async Client"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "core",
+]
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+    "pytest-asyncio",
+    "aiosqlite",
+    "httpx",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv.sources]
+core = { git = "https://github.com/MaxBro12/core.git", rev = "master" }
