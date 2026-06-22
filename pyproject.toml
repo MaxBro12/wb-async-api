@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "wb-async-client"
+name = "wb_async_client"
 version = "0.1.0"
 description = "WB Async Client"
 readme = "README.md"
@@ -20,7 +20,6 @@ tests = [
     "aiosqlite",
     "httpx",
 ]
-
 
 [tool.setuptools.packages.find]
 where = ["src"]
