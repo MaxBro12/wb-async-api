@@ -4,13 +4,13 @@
 
 ## В разработке
 
-Сейчас библиотека находится в стадии разработки. Я делаю её по мере необходимости. Если есть какие-то предложения или проблемы, не стесняйтесь открывать [issue](https://github.com/MaxBro12/wb-async-api/issues).
+Сейчас библиотека находится в стадии разработки. Я делаю её по мере необходимости. Если есть какие-то предложения или проблемы, не стесняйтесь открывать [issue](https://github.com/MaxBro12/wb_async/issues).
 
 ## Установка
 
 ```shell
-pip install git+https://github.com/MaxBro12/wb-async-api.git@master
-uv add git+https://github.com/MaxBro12/wb-async-api.git@master
+pip install git+https://github.com/MaxBro12/wb_async.git@master
+uv add git+https://github.com/MaxBro12/wb_async.git@master
 ```
 
 ## Пример
